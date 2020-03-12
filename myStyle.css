@@ -1,0 +1,73 @@
+
+	body{
+		background-color: lightgrey;
+		width: 85%;
+		margin: auto;
+		}
+	#container{
+		display:grid;
+		}
+	#pic{
+		grid-column: 1;
+		grid-row: 1;
+		
+		width: 40%;
+		}
+	#bigT{
+		grid-column: 2;
+		grid-row: 1;
+		font-family: ;
+		width: 100%;
+		text-align: left;
+		font-size: 50px;
+		}
+	table, td, th{
+
+		border: 1px solid lightgrey;
+		background:  darkgrey;
+		}
+	table{
+		
+		border-collapse: collapse;
+		width: 100%
+		}
+	th{
+		background: darkgrey;
+		height: 50px;
+		}
+
+	#container2{
+		display:grid;
+		}
+	#bio{
+		grid-column: 1;
+		grid-row: 1;
+		
+		width: 90%;
+		}
+	#skills{
+		grid-column: 2;
+		grid-row: 1;
+		
+		width: 80%;
+		}
+
+	#container3{
+		display:grid;
+		}
+	#education{
+		grid-column: 1;
+		grid-row: 1;
+		
+		width: 80%;
+		}
+	#experience{
+		grid-column: 2;
+		grid-row: 1;
+		
+		width: 80%;
+		}
+	#contact{
+		text-align: center;
+		}
+		
